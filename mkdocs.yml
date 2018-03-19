@@ -1,0 +1,20 @@
+site_name: RHGS Test Drive Instructions
+site_favicon: images/favicon.ico
+copyright: 'Copyright ©2018 Red Hat, Inc.'
+markdown_extensions:
+    - smarty
+    - toc
+    - sane_lists
+    - footnotes
+    - smart_strong
+    - codehilite
+    - nl2br
+theme: material
+extra:
+  logo: 'images/Logo_RH_RGB_Default.svg'
+pages:
+- Introduction: index.md
+- Modules:
+    - 'Module 1 - Introduction to Gluster concepts': gluster-module-1.md
+    - 'Module 2 - Volume Setup and Client Access': gluster-module-2.md
+    - 'Module 3 - Volume Operations and Administration': gluster-module-3.md
